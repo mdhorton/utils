@@ -1,0 +1,13 @@
+apply plugin: "java"
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    logbackVersion = "1.1.3"
+}
+
+dependencies {
+    compile "ch.qos.logback:logback-classic:$logbackVersion"
+}
