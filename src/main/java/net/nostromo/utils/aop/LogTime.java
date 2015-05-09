@@ -2,7 +2,7 @@
  * Copyright (c) 2013-2015 by Mark D. Horton. All rights reserved.
  */
 
-package net.nostromo.utils;
+package net.nostromo.utils.aop;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
