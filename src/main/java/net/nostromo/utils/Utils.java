@@ -5,9 +5,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.Charset;
+import java.time.ZoneId;
 
 public class Utils {
 
+    public static final ZoneId NY = ZoneId.of("America/New_York");
     public static final Charset UTF8 = Charset.forName("utf-8");
     public static final char NL = '\n';
 
