@@ -29,4 +29,8 @@ public class Utils {
             return sb.toString();
         }
     }
+
+    public static String f(final double val) {
+        return String.format("%,.2f", val);
+    }
 }

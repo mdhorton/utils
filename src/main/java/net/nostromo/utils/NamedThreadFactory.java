@@ -15,7 +15,7 @@ public class NamedThreadFactory implements ThreadFactory {
 
     @Override
     public Thread newThread(final Runnable r) {
-        final String name = String.format("%s-%d", baseName, counter.incrementAndGet());
+        final String name = String.format("%s-%04d", baseName, counter.incrementAndGet());
         return new Thread(r, name);
     }
 }
