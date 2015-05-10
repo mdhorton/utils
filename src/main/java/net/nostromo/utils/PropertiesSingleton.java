@@ -20,12 +20,12 @@ public class PropertiesSingleton extends Properties {
         }
     }
 
-    private static class SingletonHolder {
+    private static class Singleton {
         private static final PropertiesSingleton INSTANCE = new PropertiesSingleton();
     }
 
     public static PropertiesSingleton getInstance() {
-        return SingletonHolder.INSTANCE;
+        return Singleton.INSTANCE;
     }
 
     public String get(final String name) {
