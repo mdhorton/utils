@@ -11,6 +11,9 @@ public class Utils {
 
     public static final ZoneId NY = ZoneId.of("America/New_York");
     public static final Charset UTF8 = Charset.forName("utf-8");
+
+    public static final String NULL = "\\N";
+    public static final char PIPE = '|';
     public static final char NL = '\n';
 
     public static String readClassPathFile(final String fileName) throws IOException {
