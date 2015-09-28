@@ -33,7 +33,8 @@ public class Utils {
         }
     }
 
-    public static String f(final double val) {
+    // format double
+    public static String fd(final double val) {
         return String.format("%,.2f", val);
     }
 }
